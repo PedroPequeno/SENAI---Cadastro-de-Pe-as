@@ -1,0 +1,43 @@
+// Inserção de Constante e Banco de Dados // 
+const listapecas = ["Alarme", "Pneu", "Faról de Led", "Carburador", "Suporte para Celular", "Pr"]
+
+// Início do código //
+
+console.log ("Bem-vindo ao cadastro de peças da empresa Savinis.");
+
+console.log ("-");
+
+// Cadastro de peça pelo peso //
+
+console.log ("Coloque a sua peça na balança para verificarmos o peso.")
+
+console.log ("-");
+
+let pesopeca = 210
+if (pesopeca < 100) {console.log ("Cadastro inválido. Peso superior ao limite: 100 gramas.")
+}
+else { console.log ("Cadastro Permitido. Peso equivalente a: " + pesopeca + " gramas")}
+
+console.log ("-");
+
+console.log ("Verificando disponibilidade na caixa atual.")
+
+console.log ("-");
+
+let quantiapecas = 5
+
+if (quantiapecas > 10) {console.log ("Infelizmente o limite da caixa foi atingido. Cadastro inválido.")}
+else {console.log ("Cadastro permitido. Atual quantidade de peças: " + quantiapecas)}
+
+console.log ("-");
+
+console.log ("Insira o nome da peça.");
+
+let nomePecas = listapecas[4]
+
+if ( nomePecas.length < 3 ) {console.log ("Cadastro inválido. Nome da peça possui menos caractéres do que o necessário.")}
+else {console.log ("Sua peça foi cadastrada com sucesso.")}
+
+console.log ("-");
+
+console.log ("FIM DO CÓDIGO")
